@@ -13,6 +13,14 @@ services:
     build: ./front
     ports:
       - "83:80"
+  node4:
+    build: ./front
+    ports:
+      - "84:80"
+  node5:
+    build: ./front
+    ports:
+      - "85:80"
   nginx:
     build: ./nginx-front
     ports:
@@ -21,3 +29,5 @@ services:
      - node1
      - node2
      - node3
+     - node4
+     - node5
