@@ -66,7 +66,7 @@ services:
     container_name: mongo_1
     image: mongo:4.1
     ports:
-      - "40001:27017"
+      - "27018:27017"
     restart: always
     entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
   mongo2:
@@ -74,7 +74,7 @@ services:
     container_name: mongo_2
     image: mongo:4.1
     ports:
-      - "40002:27017"
+      - "27019:27017"
     restart: always
     entrypoint: [ "/usr/bin/mongod","--bind_ip_all", "--replSet", "rs0" ]
   mongo-config:
