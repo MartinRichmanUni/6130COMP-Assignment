@@ -21,7 +21,7 @@ services:
     build: ./front
     ports:
       - "85:80"
-  nginx:
+  nginx_front:
     build: ./nginx-front
     ports:
       - "80:80"
