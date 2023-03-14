@@ -54,7 +54,7 @@ services:
   nginx_back:
     build: ./nginx-back
     ports:
-      - "86:80"
+      - "86:86"
     depends_on:
      - node6
      - node7
