@@ -32,23 +32,23 @@ services:
      - node4
      - node5
   node6:
-    build: ./front
+    build: ./back
     ports:
       - "87:86"
   node7:
-    build: ./front
+    build: ./back
     ports:
       - "88:86"
   node8:
-    build: ./front
+    build: ./back
     ports:
       - "89:86"
   node9:
-    build: ./front
+    build: ./back
     ports:
       - "90:86"
   node10:
-    build: ./front
+    build: ./back
     ports:
       - "91:86"
   nginx_back:
