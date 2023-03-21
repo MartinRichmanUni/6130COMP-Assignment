@@ -16,7 +16,7 @@ services:
   nginx:
     build: ./nginx-front
     ports:
-      - "84:80"
+      - "84:84"
     depends_on:
      - node1
      - node2
