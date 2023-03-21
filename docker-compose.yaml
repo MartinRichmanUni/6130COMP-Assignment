@@ -4,19 +4,19 @@ services:
   node1:
     build: ./front
     ports:
-      - "8081:8080"
+      - "81:80"
   node2:
     build: ./front
     ports:
-      - "8082:8080"
+      - "82:80"
   node3:
     build: ./front
     ports:
-      - "8083:8080"
+      - "83:80"
   nginx:
     build: ./nginx-front
     ports:
-      - "8080:8080"
+      - "80:80"
     depends_on:
      - node1
      - node2

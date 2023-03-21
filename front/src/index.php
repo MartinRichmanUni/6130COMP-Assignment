@@ -5,7 +5,7 @@
 </head>
 <body>
   <h2>Welcome to Runners Crisps Competition!</h2>
-  <form action="http://172.17.0.1:86/backend.php" method="post">
+  <form >
     <label for="hexcode">Please enter the 10 digit code found in your Runners Crisp packet</label><br>
     <input type="text" id="hexcode" name="hexcode"><br>
     <label for="fname">First Name</label><br>
