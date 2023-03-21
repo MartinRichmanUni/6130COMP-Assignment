@@ -21,3 +21,28 @@ services:
      - node1
      - node2
      - node3
+  mongo1:
+    hostname: mongo1
+    container_name: mongo1
+    image: mongo:4.1
+    ports:
+      - "40001:27017"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
+  mongo2:
+    hostname: mongo2
+    container_name: mongo2
+    image: mongo:4.1
+    ports:
+      - "40002:27017"
+    restart: always
+    entrypoint: [ "/usr/bin/mongod","--bind_ip_all", "--replSet", "rs0" ]
+  mongo-config:
+    hostname: mongo-config
+    container_name: mongo-config
+    image: mongo:4.1
+    volumes:
+      - ./mongo/rs-init.sh:/mongo/rs-init.sh
+      - ./mongo/init.js:/scmongoripts/init.js
+    entrypoint: [ "bash" , "/mongo/rs-init.sh" ]
+

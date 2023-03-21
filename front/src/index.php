@@ -1,22 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Runners Crisps UK</title>
-</head>
-<body>
-  <h2>Welcome to Runners Crisps Competition!</h2>
-  <form >
-    <label for="hexcode">Please enter the 10 digit code found in your Runners Crisp packet</label><br>
-    <input type="text" id="hexcode" name="hexcode"><br>
-    <label for="fname">First Name</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="email">E-mail</label><br>
-    <input type="text" id="email" name="email"><br>
-    <label for="address">Please enter your home address</label><br>
-    <input type="text" id="address" name="address"><br>
-    <label for="bestplayer">Who is the best player in the game? Enter their last name below</label><br>
-    <input type="text" id="bestplayer" name="bestplayer"><br>
-    <input type="submit" value="Submit Details">
-  </form>
-</body>
-</html>
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require 'vendor/autoload.php';
+
+echo "test";
+try{
+$client = new MongoDB\Client(
+    'mongodb://mongo1:27017,mongo2:27017,mongo3:27017/admin?replicaSet=rs0'
+);
+}
+catch (MongoConnectionException $e) {
+        die('Error connecting to MongoDB server');
+        } catch (MongoException $e) {
+        die('Error: ' . $e->getMessage());
+        }
+
+$collection = $client->week4sweetshoptest->sweets;
+
+$cursor = $collection->find();
+echo "hello ";
+foreach ($cursor as $document) {
+    echo $document['_id'] . " " . $document['item'] . "<br>";
+}
+?>
