@@ -8,7 +8,7 @@ require 'vendor/autoload.php';
 echo "test";
 try{
 $client = new MongoDB\Client(
-    'mongodb://mongo1:27017,mongo2:27017,mongo3:27017/admin?replicaSet=rs0'
+    'mongodb://mongo1:27017,mongo2:27017/admin?replicaSet=rs0'
 );
 }
 catch (MongoConnectionException $e) {
