@@ -18,7 +18,7 @@ var config = {
             "_id": 2,
             "host": "mongo2:27017",
             "priority": 1
-        },
+        }
     ]
 };
 rs.initiate(config, { force: true });

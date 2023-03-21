@@ -43,6 +43,6 @@ services:
     image: mongo:4.1
     volumes:
       - ./mongo/rs-init.sh:/mongo/rs-init.sh
-      - ./mongo/init.js:/scmongoripts/init.js
+      - ./mongo/init.js:/mongo/init.js
     entrypoint: [ "bash" , "/mongo/rs-init.sh" ]
 
