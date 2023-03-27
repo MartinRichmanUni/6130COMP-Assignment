@@ -20,10 +20,12 @@ catch (MongoConnectionException $e) {
 $collection = $client->runnersDB->barcodes;
 $users = $client->runnersDB->users;
 
+// Variables set based on user inputs from index.php
 $code = $_POST['hexcode'];
 $firstName = $_POST['fname'];
 $email = $_POST['email'];
 $address = $_POST['address'];
+$bestplayer = $_POST['bestplayer']
 
 $result = $collection->findOne(array('code' => $code));
 
@@ -40,7 +42,8 @@ if ($result != null)
     $insertUser = array(
         'first_name' => $firstName,
         'email' => $email,
-        'address' => $address
+        'address' => $address,
+        'bestplayer' => $bestplayer
     );
 
     $users->insert($insertUser);
@@ -48,11 +51,15 @@ if ($result != null)
     echo ("Coupon: ". $coupon);
     if ($coupon == "FREEBALL")
     {
-        echo ("Congragulations! You are one of our lucky winners and have won a free ball"); 
+        echo "Congragulations! You are one of our lucky winners and have won a free ball"; 
     } 
     else 
     {
-        echo ("Congragulations! You have got 10% off your next purchase of Runner's Crisps");
+        echo "Congragulations! You have got 10% off your next purchase of Runner's Crisps";
     }
+}
+else 
+{
+    echo "Sorry the barcode you entered is not valid, please return to the previous page and try again";
 }
 ?>
