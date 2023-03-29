@@ -5,6 +5,10 @@ error_reporting(E_ALL);
 
 require 'vendor/autoload.php';
 
+/*
+    Attempted connection to the mongo clusters created. 
+    If no connection is determined, a suitable error message should be displayed
+*/
 try{
 $client = new MongoDB\Client(
     'mongodb://mongo1:27017,mongo2:27017/admin?replicaSet=rs0'
@@ -48,6 +52,7 @@ if ($result != null)
 
     $users->insert($insertUser);
 
+    // Displays a voucher code and message to the user dependent on the data returned from the database
     echo ("Coupon: ". $coupon);
     if ($coupon == "FREEBALL")
     {
