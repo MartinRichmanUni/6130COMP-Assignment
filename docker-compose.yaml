@@ -13,14 +13,6 @@ services:
     build: ./front
     ports:
       - "83:80"
-  node4:
-    build: ./front
-    ports:
-      - "84:80"
-  node5:
-    build: ./front
-    ports:
-      - "85:80"
   node6:
     build: ./back
     ports:
@@ -33,14 +25,6 @@ services:
     build: ./back
     ports:
       - "89:86"
-  node9:
-    build: ./back
-    ports:
-      - "90:86"
-  node10:
-    build: ./back
-    ports:
-      - "91:86"
   nginx1:
     build: ./nginx-front
     ports:
@@ -49,8 +33,6 @@ services:
      - node1
      - node2
      - node3
-     - node4
-     - node5
   nginx2:
     build: ./nginx-back
     ports:
@@ -59,8 +41,6 @@ services:
      - node6
      - node7
      - node8
-     - node9
-     - node10
   mongo1:
     hostname: mongo1
     container_name: mongo1

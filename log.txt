@@ -1,3 +1,27 @@
+commit e407296c4b3573dd7a9bb46b8e4c14f4aa9c6e19
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 29 20:39:51 2023 +0100
+
+    Included user name to congragulations method
+
+commit dc110feaaaa5980f0047d201a84ddf5ee768dba5
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 29 20:36:18 2023 +0100
+
+    Updated Dockerfile for nginx backend
+
+commit 67067b1845439cf6ff11e9ab53743a5e0bb57193
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 29 16:22:16 2023 +0100
+
+    Added commit history as a text file
+
+commit 149b321dc482f6f34d3da3813bd6424a9e710bb7
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 29 16:19:29 2023 +0100
+
+    Added new location to nginx config for form
+
 commit 2248c109f6a7684320cbd10e2ff09cceffcb4ff1
 Author: Martin Richman <martyrichman100@gmail.com>
 Date:   Mon Mar 27 17:29:51 2023 +0100
