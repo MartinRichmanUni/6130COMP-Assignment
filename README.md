@@ -25,3 +25,8 @@ Once the service has been deployed and is running, the functionality of the serv
     - 8c805aed6b
 - Once a barcode has been used, it should not be available anymore. So, re-entering the same barcode can be used to check this functionality.
 Form page (index.php) can be refreshed multiple times to check if traffic is load balanced and service continues to run without issue.
+
+## Repository
+
+The public repository can be found at the following address: https://github.com/MartinRichmanUni/6130COMP-Assignment
+Additionally the commit history is provided in text format as log.txt

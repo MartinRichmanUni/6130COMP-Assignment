@@ -1,0 +1,245 @@
+commit 2248c109f6a7684320cbd10e2ff09cceffcb4ff1
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Mon Mar 27 17:29:51 2023 +0100
+
+    Spaces added to README for bulleted list
+
+commit 3e8a306690b3f8e1e92d8493ac02ae79be162ab0
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Mon Mar 27 17:28:49 2023 +0100
+
+    README file information added
+
+commit 43db6e6fb0d6b8411c87689140a57dc8283337bc
+Author: MartinRichmanUni <116655760+MartinRichmanUni@users.noreply.github.com>
+Date:   Mon Mar 27 16:58:28 2023 +0100
+
+    Created README file for further information
+
+commit 7fd0e95b716be3a97471d2127d2d822ca9c38d35
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Mon Mar 27 16:57:39 2023 +0100
+
+    Added missing bestplayer value in backend.php
+
+commit 36c03c7f65d72a9cdd85487d641ec2f76c2efa1d
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Mon Mar 27 16:35:00 2023 +0100
+
+    Backend.php functionality added
+
+commit 03d5c12e7b44cca543a52d5f718ada0826d6474c
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 14:17:26 2023 +0000
+
+    Typo in docker-compose fix
+
+commit 5915a048b5a3e785e19778fa5dfd27e4d8a3422a
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 14:12:12 2023 +0000
+
+    Fixed mongo connection uncaught error
+
+commit b7bda83c3dcf6d5e848cfef912ec3a299e627621
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 14:09:16 2023 +0000
+
+    Creation of MongoDB
+
+commit 79e980ffefeba5aed14c4badc233a3598df19cb1
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 13:33:38 2023 +0000
+
+    Reverted nginx back to port 80
+
+commit 53abe4972cc5a855841a65907ea61b4ee28c0d29
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 13:28:20 2023 +0000
+
+    Nginx port number change - Test
+
+commit fca1786a07ee600ee48214dc3fb2c5ad6caff01e
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 13:15:50 2023 +0000
+
+    Nginx port adjusted
+
+commit 497e8c57048e1d4a1b7647c8973a1762ce91c4e2
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 13:13:57 2023 +0000
+
+    Port number change
+
+commit f9562c7e7e497512f9b7ab7519c16cf002254be4
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 13:01:48 2023 +0000
+
+    Reverted back to old version of project
+
+commit 0dc2d32a5b5beef10a52d3b37eeea3ef76962f3e
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 12:14:09 2023 +0000
+
+    Potential fix for port issue
+
+commit cdbf2e13d82d7a11525b5ead107dbb960c217187
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 12:08:39 2023 +0000
+
+    Revert back to previous ports
+
+commit 4ff57b7f11e7e7f4d2d3f1b066828f001e9499cc
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 12:05:15 2023 +0000
+
+    Fixed docker compose error
+
+commit d3edac39bc10bc0b676a8b745dc7a242c3b4f8b3
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 12:04:25 2023 +0000
+
+    Updated port numbers
+
+commit 469f31b6b69668bd381ebe69dbe022cbfdb6cb80
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 21 11:46:42 2023 +0000
+
+    Updated nginx config to change port number
+
+commit 6a756c08bf5ef6ec1e215d03ef565799e4163fba
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 15 13:24:19 2023 +0000
+
+    Removed server_name from nginx config
+
+commit b73ad8cbb3097c7b56438683fd31fe49f6edef08
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 15 13:20:34 2023 +0000
+
+    Changed form directory for POST
+
+commit 270970722a7e78d02b353b9dd620e9a884eca7c2
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 15 12:52:43 2023 +0000
+
+    Changed file structure to use one nginx config
+
+commit 99c9922c9a7d3e36c4fe8521fd299749f5d54551
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Wed Mar 15 12:30:40 2023 +0000
+
+    Exposed port 86 for nginx
+
+commit 1b23d6fc19da9c2dee69c5add993653339dac6fb
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 13:08:01 2023 +0000
+
+    Change to form address
+
+commit f92d4f2eca08d27283bebe01dce01526bb295bfe
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 13:06:47 2023 +0000
+
+    form changed to include post request
+
+commit 24ee99ad07d822d43908201e07c17a6681630330
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 12:51:59 2023 +0000
+
+    Change to form directory
+
+commit a07e8710ebe268a7787e3f47c690b5d6763e710b
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 12:44:53 2023 +0000
+
+    Potential fix for bad gateway nginx
+
+commit 7d31b68d5227338019c81bf43df6d17e6d3e373d
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 12:31:46 2023 +0000
+
+    Docker-compose .yaml port change
+
+commit 88a32f4ba53a29fbb4165b8221a25b6bbd12202a
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 12:29:45 2023 +0000
+
+    Potential fix for nginx.conf
+
+commit b561a721a22d0fc4173695eaa7786173d92a5081
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 12:13:30 2023 +0000
+
+    Docker-compose file port number change
+
+commit f50ff975a3f841e2a377e99403101732a9810359
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 12:06:58 2023 +0000
+
+    Changed port numbers for database
+
+commit a5ade9ff573bf4bbab4a7022948579b1eb9f3cda
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 11:57:10 2023 +0000
+
+    Dockerfile backend Change
+
+commit 6d7a21f09e552ae58b4cb5f4d76d195b9ad6c62b
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 11:55:38 2023 +0000
+
+    Fixed issue with Dockerfile for backend
+
+commit 1c2d12875f2581099e4759f1882e25e412170ad6
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 11:50:01 2023 +0000
+
+    Fixed issue with docker-compose file
+
+commit 1e66a032a1a9509aad4847f944582db436121bcd
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 11:49:20 2023 +0000
+
+    Updated docker-compose.yaml
+
+commit 6e67d0e2546204c378d0979d150fef86495d419f
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 14 11:46:23 2023 +0000
+
+    Implement foundation for backend php data handling
+
+commit bc2e60f4eaa2c8673c9eee566b96f531a386c575
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Mon Mar 13 15:52:38 2023 +0000
+
+    Fix to database cluster names
+
+commit b73940be0919474950441a6dd37224bfde254899
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Mon Mar 13 15:16:05 2023 +0000
+
+    Cluster setup for database with data entries
+
+commit b7b9110adedba6c37ee9d35494afa68592512e14
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 7 15:55:10 2023 +0000
+
+    Created HTML form for frontend inputs
+
+commit 34c39ece58bb900f6743af9715be83a672c1df17
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 7 10:57:38 2023 +0000
+
+    Added frontend Dockerfile
+
+commit 626ea1c614d8709dd5340236da6b3f648a42402d
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 7 10:56:32 2023 +0000
+
+    Corrected YAML file version
+
+commit 5ce7338c7eca2eb57b34d3f0223ae1d484b5887b
+Author: Martin Richman <martyrichman100@gmail.com>
+Date:   Tue Mar 7 10:52:29 2023 +0000
+
+    Creation of frontend to test load balancing
