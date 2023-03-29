@@ -56,11 +56,11 @@ if ($result != null)
     echo ("Coupon: ". $coupon);
     if ($coupon == "FREEBALL")
     {
-        echo "Congragulations! You are one of our lucky winners and have won a free ball"; 
+        echo "Congragulations ". $firstName . "! You are one of our lucky winners and have won a free ball"; 
     } 
     else 
     {
-        echo "Congragulations! You have got 10% off your next purchase of Runner's Crisps";
+        echo "Congragulations ". $firstName . "! You have got 10% off your next purchase of Runner's Crisps";
     }
 }
 else 
